@@ -938,11 +938,107 @@ figcaption {
 
 /* 5. Contact */
 
+#gracias {
+
+    background-color: #009385;
+    color: #009385;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    line-height: 120%;
+}
+
+
+#graciasTexto {
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+    margin: 10%;
+
+}
+
+
+
+
+
+#graciasTexto a {
+    font-size: 90%;
+    color:#13c2a5;
+}
+
+#graciasTexto a:hover {
+    color: #5addc7;
+}
+
+
+
+#graciasTexto img {
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+@media (min-width: 400px) {
+   
+    #graciasTexto img {
+        max-width: 90%;
+        height: auto;
+    
+    }
+
+}
+
+
+@media (min-width: 500px) {
+   
+    #graciasTexto img {
+        max-width: 70%;
+        height: auto;
+    
+    }
+
+
+}
+
+@media (min-width: 600px) {
+   
+    #graciasTexto img {
+        max-width: 60%;
+        height: auto;
+    
+    }
+
+
+}
+
+
+
+@media (min-width: 800px) {
+   
+    #graciasTexto img {
+        max-width: 30%;
+        height: auto;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 button {
     background-color: #009385;
     border: none;
     color: white;
-    
     margin-top: 2%;
     margin-bottom: 5%;
     padding: 10px 32px;
@@ -951,8 +1047,6 @@ button {
     font-size: 16px;
     border-radius: 10px;
     position: absolute;
-    
-    
     display: inline-block;
 }
 
