@@ -1,0 +1,1189 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #009385;
+    font-size: 100%;
+    background-color: #009385;                   
+} 
+
+
+
+
+
+a {
+    color: #8BEBDB;
+    text-decoration: none;
+}
+
+
+
+/* 1. Header */
+     
+      
+.header {
+    display: block;
+    background-color: rgba(19,194,165,0.8);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    margin-top: 0%;
+    padding-right: 10px;
+}
+
+.header ul {
+    margin: auto;
+    padding: 10px;
+
+    list-style: none;
+
+}
+
+.header li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: #8BEBDB;
+    font-size: 80%;
+}
+
+.header li a:hover {
+    color: white;
+}
+  
+.header .logo {
+    height: 50px;
+    display: block;
+    float: left;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+#idiomas {
+    padding-right: 40px;
+}
+
+
+@media (min-width: 300px) {
+   
+    .header .logo {
+        height: 60px;
+    }
+
+
+}
+
+@media (min-width: 400px) {
+   
+    .header .logo {
+        height: 70px;
+        padding: 10px 20px;
+    }
+    
+    .header li {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 700px) {
+   
+    .header .logo {
+        height: 70px;
+        padding: 10px 40px;
+    }
+
+
+}
+
+
+/*intro*/
+
+#intro {
+    width: 100%;
+    height: 70%;
+    background-image: url('../img/background2.jpg');
+    background-color:white;
+    background-size: cover;
+    text-align: center;
+    line-height: 180%;
+
+}
+
+
+#introContenido {
+    min-height: 100%;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+#introFoto img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+#introTexto h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 160%;
+    padding: 3%;
+    line-height: 100%;
+}
+
+#introTexto h2 {
+    padding: 4%;
+    line-height: 120%;
+    font-size: 120%;
+}
+
+#introTexto {
+    font-size: 120%;
+    line-height: 115%;
+}
+
+#introTexto img {
+    max-width: 25%;
+    height: auto; 
+    padding: 6%;
+}
+
+
+/*MOSAICO*/
+
+.filaIntro {
+    margin: 8px -16px;
+    margin-top: 100px;
+}
+    
+    
+      
+/* Add padding BETWEEN each column (if you want) */
+.filaIntro,
+.filaIntro > .columna {
+    padding: 10px;
+}
+      
+/* Clear floats after rows */ 
+.filaIntro:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+.columnaIntro {
+    width: 100%;
+}
+    
+@media (min-width: 700px) {
+
+    #introContenido {
+        min-height: 100%;
+        padding-top: 120px;
+        padding-bottom: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    #introFoto img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 50%;
+    }
+        
+    #introTexto h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 160%;
+        padding: 3%;
+    }
+            
+    #introTexto h2 {
+        padding: 4%;
+        line-height: 110%;
+    }
+            
+    #introTexto {
+        font-size: 120%;
+        line-height: 110%;
+    }
+            
+    #introTexto img {
+        max-width: 25%;
+        height: auto; 
+        padding: 6%;
+    }
+        
+        
+    /*MOSAICO*/
+        
+    .filaIntro {
+        margin: 8px -16px;
+        margin-top: 100px;
+    }
+        
+        
+          
+    /* Add padding BETWEEN each column (if you want) */
+        .filaIntro,
+        .filaIntro > .columna {
+        padding: 10px;
+    }
+          
+    /* Clear floats after rows */ 
+       .filaIntro:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+        
+    .columnaIntro {
+        float: left;
+        width: 50%;
+    }
+        
+}
+
+
+@media (min-width: 1000px) {
+
+    #introFoto img {
+        max-width: 60%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    #introTexto h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 170%;
+        padding: 3%;
+    }
+    
+    #introTexto h2 {
+        
+        line-height: 120%;
+    }
+    
+    #introTexto {
+        font-size: 140%;
+    }
+    
+    #introTexto img {
+        max-width: 25%;
+        height: auto; 
+        padding: 6%;
+    }
+
+
+    /*MOSAICO*/
+
+    .filaIntro {
+    margin: 8px -16px;
+    margin-top: 100px;
+    }
+
+
+  
+    /* Add padding BETWEEN each column (if you want) */
+    .filaIntro,
+    .filaIntro > .columna {
+    padding: 10px;
+    }
+  
+    /* Clear floats after rows */ 
+    .filaIntro:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    .columnaIntro {
+    float: left;
+    width: 50%;
+    }
+
+}        
+
+
+
+
+
+ /*Main*/
+
+
+ /* Center website */
+ main {
+    min-height: 100%;
+    padding: 0;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: -50px;
+    
+  }
+ 
+
+h2 {
+    font-size: 140%;
+    font-weight: 700;
+    padding-bottom: 2px;
+    padding-top: 5px;
+    line-height: 120%;
+
+}
+
+
+
+
+section {
+    padding: 2%;
+    margin: 0%;
+    border: 0px;
+}
+
+
+@media (min-width: 300px) {
+
+ 
+
+    h2 {
+        font-size: 180%;
+        font-weight: 700;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    
+    }
+    
+    
+    
+    section {
+        padding: 3%;
+        margin: 0%;
+        border: 0px;
+    }
+    
+}
+
+
+@media (min-width: 700px) {
+
+ 
+
+h2 {
+    font-size: 200%;
+    font-weight: 700;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+
+
+section {
+    padding: 3%;
+    margin: 0%;
+    border: 0px;
+}
+
+}
+
+
+
+
+@media (min-width: 1000px) {
+ /* Center website */
+
+ 
+
+h2 {
+    font-size: 200%;
+    font-weight: 700;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+
+
+section {
+    padding: 3%;
+    margin: 0%;
+    border: 0px;
+}
+
+}
+
+
+
+
+
+
+
+/* 3. Icon */
+
+#icon a {
+    color: #009385;
+}
+
+#icon img {
+    max-width: 60%;
+    height: auto; 
+    padding: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+}
+
+#icon h2 {
+    text-align: center;
+    font-size: 60%;
+}
+
+.blancoIcon {
+    background-color: white;
+    padding: 1%;
+    padding-top: 10px;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100px;
+}
+
+
+
+@media (min-width: 300px) {
+   
+    .filaIcon {
+        margin: -5px 0px -50px 0px;
+        height: 50%;
+
+    }
+
+
+    #icon h2 {
+        text-align: center;
+        font-size: 80%;
+    }
+
+
+
+    .blancoIcon {
+        height: 150px;
+    }
+}
+
+
+@media (min-width: 550px) {
+   
+    
+    #icon h2 {
+        text-align: center;
+        font-size: 100%;
+    }
+    
+    .filaIcon {
+        margin: -5px 0px -50px 0px;
+        height: 50%;
+    }
+
+
+    .blancoIcon {
+        height: 180px;
+    }
+}
+
+
+
+
+/*MOSAICO*/
+
+.filaIcon {
+    margin: -5px -10px -15px -10px;
+    height: 50%;
+  }
+
+
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .filaIcon,
+  .filaIcon > .columna {
+    padding: 11px;
+  }
+  
+   /* Clear floats after rows */ 
+   .filaIcon:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .columnaIcon {
+    float: left;
+    width: 31%;
+
+}
+
+
+
+@media (min-width: 550px) {
+   
+    .filaIcon {
+        margin: 0px 0px -30px 0px;
+    }
+
+
+    .blancoIcon {
+        height: 180px;
+    }
+}
+
+
+
+
+@media (min-width: 700px) {
+
+    .filaIcon {
+        margin: -5px 0px -40px 0px;
+        height: 50%;
+    }
+   
+    .blancoIcon {
+        height: 220px;
+    }
+
+    #icon h2 {
+        text-align: center;
+        font-size: 130%;
+    }
+
+}
+
+
+@media (min-width: 800px) {
+
+    .blancoIcon {
+        height: 240px;
+    }
+
+    .filaIcon {
+        margin-bottom: -50px;
+        margin-left: 10px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 1000px) {
+    #icon img {
+        max-width: 55%;
+        height: auto; 
+        padding: 6%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.7;
+    }
+    
+    #icon h2 {
+        text-align: center;
+        font-size: 160%;
+    }
+    
+    .blancoIcon {
+        background-color: white;
+        padding: 2%;
+        margin: 1%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 310px;
+    }
+
+    .filaIcon {
+        margin-bottom: -60px;
+        margin-left: 20px;
+    }
+
+}
+
+
+@media (min-width: 1200px) { 
+    .filaIcon {
+        margin-bottom: -70px;;
+    }
+
+}
+
+
+
+
+
+
+
+/* 4. Info */
+
+.bandera {
+    border: 1px solid grey;
+}
+
+/*MOSAICO
+
+padding: 5% 8% 3% 8%;
+margin: 3% 0;
+*/
+
+
+
+.filaLogos {
+    margin: 5px -60px 5px -20px; 
+  }
+
+  .filaLogos img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .filaLogos,
+  .filaLogos > .columnaLogos {
+    padding: 8px;
+  }
+  
+   /* Clear floats after rows */ 
+   .filaLogos:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .columnaLogos {
+    float: left;
+    width: 28%;
+
+}
+
+#info p {
+    font-size: 90%;
+    line-height: 110%;
+
+}
+
+
+@media (min-width: 300px) {
+
+    .bandera {
+        border: 1px solid grey;
+    }
+
+    #info p {
+        font-size: 100%;
+        line-height: 130%;
+    
+    }
+
+
+}
+
+
+
+@media (min-width: 700px) {
+    
+    #info p {
+        line-height: 150%;
+    }
+
+
+    .filaLogos img {
+        max-width: 120%;
+        height: auto;
+    }
+
+    /*MOSAICO*/
+
+    .filaLogos {
+        margin-top: 5px;
+        margin-left: -50px;
+        margin-right: -80px;
+        margin-bottom: 0px;
+      }
+
+
+
+  
+    /* Add padding BETWEEN each column (if you want) */
+    .filaLogos,
+    .filaLogos > .columnaLogos {
+    padding: 30px;
+    }
+  
+    /* Clear floats after rows */ 
+    .filaLogos:after {
+    content: "";
+    display: table;
+    clear: both;
+     }
+
+    .columnaLogos {
+    float: left;
+    width: 30%;
+
+    }
+    
+}
+    
+
+@media (min-width: 1000px) {
+    #info p {
+        line-height: 200%;
+    
+    }
+
+    .filaLogos img {
+        max-width: 150%;
+        height: auto;
+    }
+
+
+    /*MOSAICO*/
+
+    .filaLogos {
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-right: 0;
+        margin-bottom: 0px;
+    }
+
+
+
+  
+    /* Add padding BETWEEN each column (if you want) */
+    .filaLogos,
+    .filaLogos > .columnaLogos {
+    padding: 30px;
+    }
+  
+    /* Clear floats after rows */ 
+    .filaLogos:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    .columnaLogos {
+    float: left;
+    width: 30%;
+    }   
+}
+
+
+
+/*Lista*/
+ul {
+    font-size: 90%;
+    line-height: 130%;
+    list-style: circle inside url("../img/ag_bullet-01-01.png");
+    padding-top: 20px;
+}
+  
+
+@media (min-width: 300px) {
+    ul {
+        font-size: 100%;
+        line-height: 200%;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 700px) {
+    ul {
+        line-height: 200%;
+    }
+}
+
+
+
+figcaption {
+    color: #13c2a5;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 4%;
+    font-size: 70%;
+}
+
+#info img {
+    display: block;
+    margin: auto;
+    padding: 1%;
+}
+
+
+/*fondos*/
+
+.blancoInfo {
+    background-color: white;
+    padding: 5% 8% 3% 8%;
+    margin: 3% 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gobiernos {
+    background-image: url('../img/gobierno-fondo.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#financieras {
+    background-image: url('../img/financieras-fondo.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+#internacional {
+    background-image: url('../img/internacional-fondo.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+@media (min-width: 700px) {
+    .blancoInfo {
+        background-color: white;
+        padding: 5% 12% 3% 12%;
+        margin: 3% 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #gobiernos {
+        background-image: url('../img/gobierno-fondo.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    #financieras {
+        background-image: url('../img/financieras-fondo.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    
+    #internacional {
+        background-image: url('../img/internacional-fondo.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+}
+
+
+  
+@media (min-width: 1000px) {
+    .blancoInfo {
+        background-color: white;
+        padding: 5% 12% 3% 12%;
+        margin: 3% 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    #gobiernos {
+        background-image: url('../img/gobierno-fondo.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 30%;
+
+    }
+    
+    #financieras {
+        background-image: url('../img/financieras-fondo.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    
+    #internacional {
+        background-image: url('../img/internacional-fondo.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+}
+
+
+
+
+
+
+/* 5. Contact */
+
+button {
+    background-color: #009385;
+    border: none;
+    color: white;
+    
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 10px 32px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute;
+    
+    
+    display: inline-block;
+}
+
+
+
+input {
+    margin-bottom: 5%;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 5px;
+    border-color: #13c2a5;
+    color: #009385;
+    border-width: 1px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+
+
+input[type="submit"] {
+    white-space: normal;
+}
+
+textarea {
+    margin-bottom: 5%;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 5px;
+    border-color: #13c2a5;
+    color: #009385;
+    border-width: 1px;
+    width: 100%;
+    font-size: 100%;
+    resize:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+
+}
+
+
+#contactoLink {
+    max-width: 10%;
+    height: auto;
+}
+
+.filaContacto p {
+    margin-top:10%;
+}
+
+#blancoInfoCont {
+    background-color: #d6eeea;
+    padding: 5% 8% 3% 8%;
+    margin: 4%;
+    margin-top: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contactoIcon {
+    display: none;
+
+}
+
+::placeholder {
+    color: #009385;
+    font-size: 100%;
+}
+    
+
+
+
+
+@media (min-width: 700px) {
+    #blancoInfoCont {
+        padding: 5% 8% 3% 8%;
+        margin: 4%;
+        margin-top: -10px;
+    
+    }    
+
+    
+    #contactoLink {
+        max-width: 35%;
+        height: auto;
+        padding: 2%;
+    }
+
+    input {
+        margin-bottom: 3%;
+        margin-top: 2%;
+    }
+
+    
+    
+    #contactoLink {
+        max-width: 10%;
+        height: auto;
+    }
+
+    #contactoIcon {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-left: 20%;
+        padding-top: 20%;
+        opacity: 0.3;
+    
+    }
+
+    /*MOSAICO*/
+
+    .filaContacto {
+        margin-top: 5px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: 0px;
+    }
+        
+
+         
+    /* Clear floats after rows */ 
+    .filaContacto:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+        
+    .columnaContacto1 {
+        float: left;
+        width: 70%;
+    } 
+
+    .columnaContacto2 {
+        float: left;
+        width: 28%;
+    } 
+
+}
+
+@media (min-width: 1000px) {
+
+
+    #blancoInfoCont {
+        padding: 5% 8% 3% 8%;
+        margin: 4%;
+        margin-top: -40px;
+    
+    }
+    
+    #contactoIcon {
+        display: block;
+        max-width: 80%;
+        height: auto;
+        padding-top: 20%;
+        margin: auto;
+        opacity: 0.3;
+    
+    }
+
+    button {
+
+        margin-top: 0%;
+    }
+
+    .filaContacto p {
+        display: inline-block;
+        margin-top: 5%;
+    }
+
+
+    input {
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+
+
+    /*MOSAICO*/
+
+    .filaContacto {
+        margin-top: 5px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: 0px;
+    }
+        
+        
+         
+    /* Add padding BETWEEN each column (if you want) */
+    .filaContacto,
+    .filaContacto > .columnaContacto {
+        padding: 30px;
+    }
+         
+    /* Clear floats after rows */ 
+    .filaContacto:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+        
+    .columnaContacto {
+        float: left;
+        width: 50%;
+    } 
+}
+
+
+
+/* 6. Footer */
+
+footer {
+    color: #13c2a5;
+    text-align: center;
+    font-size: 80%;
+    padding: 5%;
+    padding-top: 70px;
+    line-height: 150%;
+}
+
+@media (min-width: 700px) {
+    footer {
+        padding: 5%;
+        line-height: 150%;
+    }
+}
+
+@media (min-width: 1000px) {
+    footer {
+
+        padding: 2%;
+        line-height: 150%;
+    }  
+}
